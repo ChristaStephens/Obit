@@ -1,12 +1,14 @@
 *{
-    background: rgb(202, 175, 202);
+    /* background: rgb(202, 175, 202); */
+    font-family: 'Lora', serif;
+}
 
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Hepta Slab', serif;
-font-family: 'Merriweather', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Lora', serif;
-font-family: 'Inconsolata', monospace;
-font-family: 'Crimson Text', serif; */
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom, rgba(0,0,204,0.3), rgba(191,128,255,0.3));
+    background-size:cover;
+    /* color: rgb(202, 175, 202); */
 }
