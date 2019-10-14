@@ -1,14 +1,44 @@
-*{
+* {
     /* background: rgb(202, 175, 202); */
     font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
 }
 
-header{
+header {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to bottom, rgba(0,0,204,0.3), rgba(191,128,255,0.3));
-    background-size:cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 204, 0.3), rgba(191, 128, 255, 0.3));
+    background-size: cover;
+    font-size: 30px;
     /* color: rgb(202, 175, 202); */
 }
+
+/* For the entire section below the header  */
+
+.about {
+    height: 300vh;
+    /* flex is for the paragraph and the about wording  */
+    display: flex;
+}
+
+/* Spacing between the title and the paragrag text  */
+
+.about-title {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* Allows the text to go to the right  */
+
+.about-pages {
+    width: 50%;
+}
+
+/* selecting all divs to make them their own pages below  */
