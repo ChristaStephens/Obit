@@ -42,3 +42,49 @@ header {
 }
 
 /* selecting all divs to make them their own pages below  */
+
+.about-pages div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: snow;
+}
+
+/* For paragraphs in about pages  */
+
+.about-pages div>p {
+    width: 80;
+    font-size: 18px;
+    line-height: 30 px;
+}
+
+/* Creating background colors for each section */
+/* (nth child (1)) selects the first div inside of the about pages section */
+
+.about-pages div:nth-child(1) {
+    background-color: rebeccapurple;
+}
+
+/* Creating background colors for each section */
+/* (nth child (1)) selects the first div inside of the about pages section */
+
+.about-pages div:nth-child(2) {
+    background-color: seagreen;
+}
+
+/* Creating background colors for each section */
+/* (nth child (1)) selects the first div inside of the about pages section */
+
+.about-pages div:nth-child(3) {
+    background-color: indianred;
+}
+
+footer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(191, 128, 255, 0.3);
+}
