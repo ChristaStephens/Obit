@@ -15,7 +15,7 @@ function splitScroll() {
     //as soon as we hit the about title the title will pop up
     .setPin('.about-title')
     //adds triggers to page and show's where it will start scrolling effect
-        .addIndicators()
+
         //starts every thing
         .addTo(controller);
 
