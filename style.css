@@ -33,6 +33,7 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    margin:0!important;
 }
 
 /* Allows the text to go to the right  */
